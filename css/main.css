@@ -48,6 +48,7 @@ main{
     color: rgb(86, 30, 210);
     text-align: center;
 }
+
 main nav ul li p{
     text-decoration: none;
     color: black;
@@ -113,11 +114,13 @@ header h1{
 /* tablet */
 @media(min-width:600px){
     .grid{
+        grid-template-columns: 1fr 1fr 1fr ;
         grid-template-areas: 
-        "header header "
-        "aside aside "
-        "main main "
-        "footer footer ";
+        "header header header "
+        "aside aside aside "
+        "main main main "
+        "footer footer footer ";
+        text-align: center;
     }
 }
 

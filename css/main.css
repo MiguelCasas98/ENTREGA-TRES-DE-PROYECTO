@@ -101,7 +101,7 @@ header h1{
     text-align: center;
     }
  /* mobile */
-.grid{
+  .grid{
     display: grid;
     height: 100vh;
     gap: 20px;
@@ -110,9 +110,9 @@ header h1{
         "main "
         "aside "
         "footer ";
-}
+    }
 /* tablet */
-@media(min-width:600px){
+@media(min-width:768px){
     .grid{
         grid-template-columns: 1fr 1fr 1fr ;
         grid-template-areas: 

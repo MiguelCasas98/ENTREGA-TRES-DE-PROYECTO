@@ -1,0 +1,91 @@
+//variables
+@use "../utilities/variables" as *;
+
+//mixin
+@use "../utilities/mixin" as *;
+
+/*estilos de header*/
+header{
+    main{
+    text-align: $align;
+    nav{        
+        ul{
+          list-style: none;
+          li{
+            a{
+         text-decoration: none;
+         color:rgb(86, 30, 210);   
+        }
+      }  
+     }
+    }
+    img{
+    width: 20%;
+    margin: 25px 0 100px 0;
+    }
+} 
+}
+/* estilos de main*/
+main{
+    @include flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: $color-principal;
+    text-align:$align;
+    nav{
+        ul{
+            li{
+                p{
+                    text-decoration:$decoration;
+                    color:$color-secundario
+                }
+            }
+            a{
+                text-decoration: $decoration;
+                color:$color-principal;
+                font-weight: bold;
+            }
+        }
+    }
+    div{p
+    {
+    color:$color-tipo;
+    text-align:$align;
+        }
+      } 
+}
+nav{ul{li{a:hover{
+      color:whitesmoke;
+      }
+     }
+    }
+   }
+   /*estilos de main en productos*/
+main{
+    @include flex;
+    flex-direction: column; /* apila vertical*/
+    gap: 10px; /* espacio entre ítems */ 
+    list-style: none; 
+    padding: 0;
+}
+/*estilos de footer*/
+footer{
+    color:$color-secundario;
+    text-align: $align;
+    a{
+        color:$color-principal;
+        text-decoration: $decoration;
+        text-align: $align;
+    }
+    hover{
+        color: whitesmoke;
+    }
+}
+/*cass*/
+header{
+    h1{
+    background-color:lightseagreen;
+    color:$color-secundario;
+    text-align: $align;
+    }
+}

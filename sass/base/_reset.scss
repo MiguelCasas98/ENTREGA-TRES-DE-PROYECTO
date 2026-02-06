@@ -1,0 +1,21 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*estilos de body*/
+body{
+    /*propiedad de color de fondo*/
+    background-color: rgb(192, 175, 175);
+}
+
+/* estilos de navbar */
+.greenblue-bg{
+    background-color: rgb(53, 194, 135);
+}
+.greenblue-bg li a:hover{
+    background-color: rgb(103, 243, 133);
+}

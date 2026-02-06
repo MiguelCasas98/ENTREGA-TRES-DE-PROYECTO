@@ -1,0 +1,9 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+    
+}
+@mixin color-text($color, $ubication){
+  color: $color;
+  text-align: $ubication;  
+}

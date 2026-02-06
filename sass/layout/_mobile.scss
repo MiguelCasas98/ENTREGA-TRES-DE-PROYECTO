@@ -1,0 +1,11 @@
+/*nq mobile*/
+.grid{
+    display: grid;
+    height: 100vh;
+    gap: 20px;
+    grid-template-areas: 
+        "header "
+        "main "
+        "aside "
+        "footer ";
+    }
